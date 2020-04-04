@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>plugins | HDP^2サーバー公式ページ</title>
+   <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap&subset=japanese" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+    <link rel="icon" href="../contents/images/icons/HDP^2_logo.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../contents/images/icons/apple-touch-icon.png">
+    <meta name="theme-color" content="#E91E63">
+    <meta name="application-name" content="HDP^2server/plugins"/>
+    <meta name="msapplication-square70x70logo" content="../contents/images/icons/small.jpg"/>
+    <meta name="msapplication-square150x150logo" content="../contents/images/icons/medium.jpg"/>
+    <meta name="msapplication-wide310x150logo" content="../contents/images/icons/wide.jpg"/>
+    <meta name="msapplication-square310x310logo" content="../contents/images/icons/large.jpg"/>
+    <meta name="msapplication-TileColor" content="#E91E63"/>
+  </head>
+  <body>
+    <div class="header">
+      <div class="headerlogodiv">
+        <a href="https://hdpp.github.io/HDPP/" class="header-logo-link"><img src="../contents/images/HDP^2_logo2.png" alt="HDP^2" class="header-logo"></a>
+      </div>
+      <div class="header-list">
+        <ul class="header-list-ul">
+          <a href="https://hdpp.github.io/HDPP/" class="home">ホーム</a>
+          <a href="https://hdpp.github.io/HDPP/joinserver/" class="joinserver">サーバー参加方法</a>
+          <a href="https://hdpp.github.io/HDPP/plugins/" class="plugins">サーバープラグイン</a>
+          <a href="https://hdpp.github.io/HDPP/discord/" class="headerdiscord">Discord</a>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <h1 class="main-title">プラグインについて</h1>
+      <h2 class="main-subtitle">サーバーを快適にするプラグインたち</h2>
+      <hr color class="main-line">
+      <div class="main-tile">
+        <p>HDP^2サーバーでは快適安心安全なMinecraftライフを提供するためにいくつかのプラグインを導入しています。</p>
+        <p>以下は利用できる機能と使い方です。</p>
+        <div class="tableframe">
+          <h1 class="tabletitle">～目次～</h1>
+          <ul class="tabelcontents">
+            <li><a href="#DiscordSRV">DiscordSRVの使い方</a></li>
+            <li><a href="#LockettePro">LocketteProの使い方</a></li>
+            <li><a href="#PvPToggle">PvPToggleの使い方</a></li>
+          </ul>
+        </div><br>
+        <div class="tileframe">
+          <h1 class="tile-subtitle" id="DiscordSRV">DiscordSRVの使い方</h1>
+          <table class="extable">
+            <tr><td class="subsub">機能説明：</td><td>DiscordとMinecraftのチャットメッセージの連携</td></tr>
+            <tr><td></td><td>サーバーが開いてるときDiscordの専用チャンネルで送信したメッセージはゲーム内にも流れます。</td></tr>
+            <tr><td></td><td>ゲーム内のメッセージも専用チャンネルに流れます。</td></tr>
+            <tr><td>コマンド：</td><td>/linked　：リンクされたアカウントを確認できます。</td></tr>
+            <tr><td></td><td>/link　：Discordアカウントをリンクできます。</td></tr>
+            <tr>
+              <td></td><td>/unlink　：Discordアカウントリンクを解除します。リンクしていないと入れなくなるので注意。</td>
+            </tr>
+          </table>
+        </div><br>
+        <div class="tileframe">
+          <h1 class="tile-subtitle" id="LockettePro">LocketteProの使い方</h1>
+          <table class="extable">
+            <tr><td class="subsub">機能説明：</td><td>チェストなどを自分専用にロックする</td></tr>
+            <tr><td>操作方法：</td><td>チェスト、ドア、かまど等に看板を置き、一行目に[private]と書いてください。</td></tr>
+            <tr><td></td><td>二行目以降にはそのブロックを使用できるようにしたいユーザーのIDを入力してください。</td></tr>
+            <tr><td></td><td>一つの看板に収まらない場合、同じブロックに看板を追加することで追加できます。</td></tr>
+          </table>
+        </div><br>
+        <div class="tileframe">
+          <h1 class="tile-subtitle" id="PvPToggle">PvPToggleの使い方</h1>
+          <table class="extable">
+            <tr><td class="subsub">機能説明：</td><td>プレイヤーからの攻撃を受けるかどうかを設定できる。</td></tr>
+            <tr><td class="subsub">コマンド：</td><td>/pvp toggle　攻撃を受けるかどうかの設定を反転します。</td></tr>
+            <tr><td></td><td>/pvp on　攻撃を受けるようにします。</td></tr>
+            <tr><td></td><td>/pvp off　攻撃を受けないようにします。</td></tr>
+            <tr><td></td><td>/pvp <プレイヤー名>　プレイヤーのPvP許可情報を確認できます。(<,>)は必要ありません</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-logo">
+        HDP^2server
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li><a href="mailto:HDPP.mcserver@gmail.com?subject=問い合わせ&amp;body=ご記入ください" class="mail efflink" target="_blank" rel="noopener">お問い合わせ</a></li>
+          <li><a href="https://twitter.com/hdppserver" class="twitter efflink" target="_blank" rel="noopener">Twitter</a></li>
+          <li><a href="https://discord.gg/t3Mm6NB" class="discord efflink" target="_blank" rel="noopener">Discord</a></li>
+        </ul>
+      </div>
+      <div class="footer-at">
+        © 2020 HDP^2
+      </div>
+    </div>
+  </body>
+</html>

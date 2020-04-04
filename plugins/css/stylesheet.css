@@ -1,0 +1,290 @@
+body {
+	font-family: 'Kosugi Maru', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width:355px) and (max-width:705px) {
+	.joinserver , .plugins , .headerdiscord , .home {
+		display: none;
+	}
+	.headerlogodiv{
+	  font-size: 30px;
+	  padding: 10px 30px;
+		width: 110px;
+		height: 65.385px;
+		display: block;
+		margin: auto;
+	}
+	.header-logo {
+		width: 110px;
+		height: 65.385px;
+	}
+	.footer-logo {
+	  font-size: 32px;
+	  width: 200px;
+	  display: block;
+	  float: left;
+	}
+
+	.footer-list li {
+		padding-bottom: 15px;
+	}
+	.footer-list {
+		float: right;
+	}
+}
+
+@media screen and (min-width:706px) {
+	.joinserver , .headerdiscord , .home {
+		float: left;
+		margin: 0px 5px;
+		padding: 33px 15px 41px 15px;
+		color: #FFF;
+		text-decoration: none;
+		background-color: #E91E63;
+	}
+
+	.home:hover {
+		background-color: #C71954;
+	}
+
+	.headerdiscord:hover {
+		background-color: #C71954;
+	}
+
+	.joinserver:hover {
+		background-color: #C71954;
+	}
+
+	.plugins:hover {
+		background-color: #C71954;
+	}
+	.plugins {
+	  float:left;
+		margin: 0px 5px;
+		padding: 33px 15px 38px 15px;
+		color: #FFF;
+		text-decoration: none;
+		border-bottom: solid 3px;
+		background-color: #E91E63;
+	}
+	.header-logo {
+	  float: left;
+	  font-size: 30px;
+	  padding: 10px 30px;
+		width: 110px;
+		height: 65.385px;
+	}
+	.spanmenu {
+		display: none;
+	}
+	.footer-logo {
+	  font-size: 32px;
+	  width: 200px;
+	  display: block;
+	  float: left;
+	}
+	.footer-list {
+	  float: right;
+	}
+
+	.footer-list li {
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (max-width:355px) {
+	.footer-logo {
+		display: none;
+	}
+	.footer-list li {
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (min-width:356px) and (max-width:705px) {
+	.footer-logo {
+	  font-size: 32px;
+	  width: 200px;
+	  display: block;
+	  float: left;
+	}
+	.footer-list li {
+		padding-bottom: 15px;
+	}
+	.footer-list {
+	  float: right;
+	}
+}
+
+.header {
+  background-color: #E91E63;
+  height: 90px;
+  margin: 0;
+  color: #FFF;
+	filter: drop-shadow(0px 4px 2px rgba(0,0,0,0.3));
+	overflow: hidden;
+}
+
+.main {
+	background-color: #FACFDD;
+	color: #673143;
+	text-align: center;
+}
+
+@media screen and (min-height: 840px) {
+	.main {
+	  min-height: calc(100vh - 240px);
+	}
+}
+
+@media screen and (max-height: 840px) {
+	.main {
+	  min-height: 600px;
+	}
+}
+
+.footer {
+  position: relative;
+  background-color: #F1739E;
+  height: 90px;
+  color: #FFF;
+  padding: 30px;
+}
+
+.efflink {
+	color: #FFF;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.efflink::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #FFF;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform 0.3s;
+}
+.efflink:hover::after {
+  transform: scale(1, 1);
+}
+
+.footer-at {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+  font-size: 12px;
+}
+
+.main p {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.main-title {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+
+.main-subtitle {
+	padding-bottom: 5px;
+}
+
+.main-tile {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.tile-subtitle {
+	font-size: 24px;
+	text-align: left;
+	padding: 3px 0px 5px 5px;
+}
+
+.tableframe {
+	border: solid;
+	margin-top: 10px;
+	display: inline-block;
+	border-width: 2px;
+	min-width: 10px;
+	background-color: #fff;
+}
+
+.tableframe li {
+	text-align: left;
+	margin: 0px 5px 0px 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	list-style: initial;
+}
+
+.tabletitle {
+	font-size: 21px;
+	padding-top: 3px;
+}
+
+.tileframe {
+	margin-top: 10px;
+	border: solid;
+	display: inline-block;
+	border-width: 2px;
+	width: 90vw;
+}
+
+@media screen and (min-width: 900px) {
+	.tileframe {
+		width: 800px;
+	}
+}
+
+.tileframe {
+	text-align: left;
+	background-color: #fff;
+}
+
+.extable {
+	margin: 0px 7px 4px 7px;
+}
+
+.subsub {
+	white-space: nowrap;
+}
+
+.main a {
+		color: #E91E63;
+	  position: relative;
+	  display: inline-block;
+	  text-decoration: none;
+}
+
+.main a::after {
+	position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #E91E63;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform 0.3s;
+}
+
+.main a:hover {
+	color: #E91E63;
+}
+
+.main a:hover::after {
+	transform: scale(1, 1);
+}
